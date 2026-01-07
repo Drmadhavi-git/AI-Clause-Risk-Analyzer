@@ -1,0 +1,16 @@
+{
+  "filename": "sample.pdf",
+  "total_clauses": 2,
+  "risk_summary": { "High": 1, "Medium": 1, "Low": 0 },
+  "clauses": [
+    {
+      "id": 1,
+      "clause": "Payment shall be made within 90 days of invoice date.",
+      "risk_level": "High",
+      "risk_type": "Financial",
+      "reason": "",
+      "mitigation": "Reduce payment terms to 30 days; add interest on late payments.",
+      "method": "rules"
+    }
+  ]
+}
