@@ -1,0 +1,24 @@
+# AI Clause Risk Analyzer (Upload-ready GitHub Project)
+
+This project extracts clauses/paragraphs from a PDF contract/RFP and classifies risk levels (Low/Medium/High) with risk type + mitigation suggestions.
+
+Works out of the box (rule-based baseline)  
+Optional OpenAI support for richer explanations (set OPENAI_API_KEY)
+
+---
+
+## Features
+- PDF upload
+- Text extraction (PyPDF)
+- Clause/paragraph splitting
+- Risk classification (baseline rules)
+- Optional LLM-enhanced reasoning/explanations
+- FastAPI endpoint + Swagger UI
+
+---
+
+## Setup
+
+### 1) Install
+```bash
+pip install -r requirements.txt
